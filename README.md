@@ -1,7 +1,6 @@
 # 📚 Learnify — Adaptive Learning & Intelligent Examination Platform
 
 [![Live Demo](https://img.shields.io/badge/Demo-Live%20Website-brightgreen?style=for-the-badge&logo=googlechrome)](https://samar-learnify.infinityfreeapp.com)
-[![GitHub License](https://img.shields.io/badge/License-MIT-blue.style=for-the-badge)](LICENSE)
 [![PHP Version](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
 

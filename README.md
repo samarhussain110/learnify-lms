@@ -1,22 +1,26 @@
-# 📚 Learnify — Adaptive Learning & Intelligent Examination Platform
+# 📚 Learnify — Adaptive Learning & Intelligent Examination Engine
 
-[![Live Demo](https://img.shields.io/badge/Demo-Live%20Website-brightgreen?style=for-the-badge&logo=googlechrome)](https://samar-learnify.rf.gd)
 [![PHP Version](https://img.shields.io/badge/PHP-8.x-777BB4?style=for-the-badge&logo=php)](https://www.php.net/)
 [![MySQL](https://img.shields.io/badge/MySQL-Database-4479A1?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
 
-**Learnify** is a modern, responsive, full-stack Learning Management System (LMS) and examination engine designed for interactive computer science education. Built with a slick **Glassmorphism UI**, it brings together structured module-based learning, automated examination engines, real-time progress logging, instant certificate generation, and an embedded **AI Learning Assistant Chatbot**.
+**Learnify** is a modern, responsive, full-stack Learning Management System (LMS) and examination engine designed for interactive computer science education. Built with a clean **Glassmorphism UI**, it integrates structured module-based learning, automated exam simulations, real-time progress logging, instant certificate generation, and an embedded **AI Learning Assistant Chatbot**.
 
 ---
 
-## 🌐 Live Web Application & Repository
+## 🎥 Project Video Walkthrough & Demo
 
-- **🌐 Live Demo:** [https://samar-learnify.rf.gd](https://samar-learnify.rf.gd)
-- **💻 Source Code:** [https://github.com/samar-hussain/learnify](https://github.com/samar-hussain/learnify)
+> Watch the full feature demonstration of Learnify including student dashboard navigation, split-screen learning studio, dynamic exam engine, and AI assistant interactions.
+
+<p align="center">
+  <a href="https://youtu.be/-rvsm_PbR2M" target="_blank">
+    <img src="https://img.shields.io/badge/▶_Watch_Learnify_Video_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch Video Demo"/>
+  </a>
+</p>
 
 ---
 
-## ✨ Key Features & Real Functionality
+## ✨ Key Features & Functionality
 
 ### 🤖 1. AI Study Assistant & Interactive Chatbot
 - **Context-Aware Assistance:** Integrated AI assistant within the learning studio to help students clarify complex CS concepts in real-time.
@@ -38,10 +42,6 @@
 - **PDO Security Protocols:** Prepared statements protecting against SQL Injection and Session Hijacking.
 - **Admin Control Center:** Complete admin capabilities to manage student records, add/update module content, and update question banks dynamically.
 
-### 🎨 5. Modern UI/UX Architecture
-- **Deep-Purple Glassmorphism Design:** Modern aesthetic featuring blurred backdrops, high contrast typography, and responsive flex/grid layouts.
-- **Cross-Device Compatibility:** Fully optimized layout for desktops, tablets, and smartphones.
-
 ---
 
 ## 🛠️ Tech Stack
@@ -52,7 +52,6 @@
 | **Backend** | PHP 8.x (Object-Oriented & Procedural PHP with PDO Security) |
 | **Database** | MySQL / MariaDB (Relational Schema with Foreign Key Constraints & Indexes) |
 | **Integrations** | AI Chatbot Component, YouTube Video API Embeds |
-| **Deployment** | Remote Apache Hosting, Git/GitHub Version Control |
 
 ---
 
@@ -67,14 +66,10 @@ learnify/
 ├── assets/
 │   ├── css/                # Custom Glassmorphism styles & animations
 │   ├── js/                 # Exam timer, progress trackers & chatbot scripts
-│   └── images/             # UI badges, logos, and UI assets
+│   └── images/             # UI badges, logos, and favicon assets
 ├── admin/                  # Administrator control panel and management scripts
 ├── student/                # Student workspace endpoints
-├── uploads/                # User avatars and dynamically generated assets
 ├── index.php               # Public landing page
 ├── login.php               # Secure authentication endpoint
-├── register.php            # New student registration handling
 ├── dashboard.php           # Interactive learning workspace
-├── exam.php                # Exam simulation engine
-├── verify-certificate.php  # Public certificate verification route
-└── README.md               # Project documentation
+└── exam.php                # Exam simulation engine
